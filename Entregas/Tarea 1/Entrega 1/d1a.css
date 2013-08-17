@@ -1,0 +1,33 @@
+/* Elementos */
+thead {
+	font-weight: bold;
+	color: #fff;
+	background: #667390;
+}
+
+tbody {
+	font-family: "Verdana";
+	font-size: 14px;
+}
+
+thead {
+	font-family: "Tahoma";
+	font-size: 14px;
+}
+
+td {
+	padding-left: 5px;
+	padding-right: 5px;
+	border-bottom: 1px solid #fff;
+}
+
+/* Clases */
+.centrar {
+	text-align: center;
+}
+.fila_oscuro {
+	background: #dfe1e7;
+}
+.fila_claro {
+	background: #eeeff2;
+}

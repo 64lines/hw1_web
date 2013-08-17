@@ -1,0 +1,39 @@
+/* Elementos */
+thead {
+	font-weight: bold;
+}
+
+tbody {
+	font-family: "Verdana";
+	font-size: 14px;
+}
+
+thead {
+	font-family: "Tahoma";
+	font-size: 14px;
+}
+
+table {
+	border: 10px solid #d0d2fe;
+	padding: 30px;
+}
+
+td {
+	padding-left: 5px;
+	padding-right: 5px;
+	border-bottom: 1px solid #fff;
+}
+
+
+/* Clases */
+.resultado {
+	font-weight: bold;	
+}
+
+.resultado td {
+	border-top: 2px solid #000;
+}
+
+.centrar {
+	text-align: center;
+}

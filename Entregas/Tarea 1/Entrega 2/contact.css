@@ -1,0 +1,83 @@
+
+/* Elementos */
+body {
+	font-family: "Verdana";
+	font-size: 10px;
+	color: #fff;
+	background: rgb(206,219,233); /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  rgba(206,219,233,1) 0%, rgba(97,153,199,1) 0%, rgba(150,25,252,1) 0%, rgba(195,76,255,1) 15%, rgba(255,81,252,1) 50%, rgba(193,71,255,1) 84%, rgba(174,76,255,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(206,219,233,1)), color-stop(0%,rgba(97,153,199,1)), color-stop(0%,rgba(150,25,252,1)), color-stop(15%,rgba(195,76,255,1)), color-stop(50%,rgba(255,81,252,1)), color-stop(84%,rgba(193,71,255,1)), color-stop(100%,rgba(174,76,255,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  rgba(206,219,233,1) 0%,rgba(97,153,199,1) 0%,rgba(150,25,252,1) 0%,rgba(195,76,255,1) 15%,rgba(255,81,252,1) 50%,rgba(193,71,255,1) 84%,rgba(174,76,255,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  rgba(206,219,233,1) 0%,rgba(97,153,199,1) 0%,rgba(150,25,252,1) 0%,rgba(195,76,255,1) 15%,rgba(255,81,252,1) 50%,rgba(193,71,255,1) 84%,rgba(174,76,255,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  rgba(206,219,233,1) 0%,rgba(97,153,199,1) 0%,rgba(150,25,252,1) 0%,rgba(195,76,255,1) 15%,rgba(255,81,252,1) 50%,rgba(193,71,255,1) 84%,rgba(174,76,255,1) 100%); /* IE10+ */
+	background: linear-gradient(135deg,  rgba(206,219,233,1) 0%,rgba(97,153,199,1) 0%,rgba(150,25,252,1) 0%,rgba(195,76,255,1) 15%,rgba(255,81,252,1) 50%,rgba(193,71,255,1) 84%,rgba(174,76,255,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedbe9', endColorstr='#ae4cff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+textarea {
+	width: 100%;
+	height: 100%;
+	margin-top: 5px;
+}
+
+h1 {
+	font-family: "Trebuchet MS";
+	font-size: 42px;
+	color: #fff;
+	margin-bottom: 40px;
+}
+
+hr {
+	border: #fff solid 1px;
+}
+
+span {
+	font-size: 12px;
+}
+
+/* Clases */
+.acerca_de {
+	width: 265px;
+}
+
+.informacion_contacto {
+	width: 600px;
+	padding: 5px
+}
+
+.texto_info {
+	vertical-align: top;
+}
+
+.formulario {
+	width: 100%;
+}
+
+.formulario tr td input {
+	width: 100%;
+}
+
+.titulo {
+	text-align: center;
+	margin: 30px;
+}
+
+.tabla_principal {
+	margin-left: 50px;
+}
+
+.boton_enviar {
+	background: #9d005b;
+	text-align: right;
+	border: 0px;
+	padding: 5px;
+	color: #fff;
+	text-decoration: none;
+	position: relative;
+	float: right;
+
+}
+
+/*.div-boton-enviar {
+	margin-left: 600px;
+}*/

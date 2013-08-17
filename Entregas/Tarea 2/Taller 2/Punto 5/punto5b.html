@@ -1,0 +1,36 @@
+<head>
+<title>Temperaturas</title>
+<meta charset="utf-8">
+<script>
+function mostrarTemperaturas() { 
+var temperaturaHora = new Array (); 
+ temperaturaHora[0] = 59.2; 
+ temperaturaHora[1] = 60.1; 
+ temperaturaHora[2] = 63; 
+ temperaturaHora[3] = 65; 
+ temperaturaHora[4] = 62; 
+for (var i = 0; i < temperaturaHora.length; i++) { 
+var laTemperatura = temperaturaHora[i]; 
+var id = "temperatura" + i; 
+var li = document.getElementById(id); 
+if (i == 0) { 
+ li.innerHTML = "La temperatura a media noche fue " + laTemperatura; 
+ } else { 
+ li.innerHTML = "La temperatura a " + i + " fue " + laTemperatura; 
+ } 
+ } 
+} 
+window.onload = mostrarTemperaturas; 
+</script>
+</head>
+<body>
+<h1>Temperaturas</h1>
+<ul>
+<li id="temperatura0"></li>
+<li id="temperatura1"></li>
+<li id="temperatura2"></li>
+<li id="temperatura3"></li>
+<li id="temperatura4"></li>
+</ul>
+</body>
+</html>

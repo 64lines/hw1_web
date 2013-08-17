@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Top 3</title>
+<meta charset="utf-8">
+<script>
+ function adicionarCancion() { 
+ var cancion1 = document.getElementById("cancion1"); 
+ var cancion2 = document.getElementById("cancion2"); 
+ var cancion3 = document.getElementById("cancion3"); 
+ cancion1.innerHTML = "Set Fire To The Rain, por Adele"; 
+ cancion2.innerHTML = "Good Feeling, Flo Rida";
+ cancion3.innerHTML = "Yo soy master en JavaScript, por Manuel Viveros";
+ } 
+ window.onload = adicionarCancion;
+</script>
+</head>
+<body>
+<h1>Top 3</h1>
+<ul id="lista">
+<li id="cancion1"></li>
+<li id="cancion2"></li>
+<li id="cancion3"></li>
+</ul>
+</body> 
+</html>

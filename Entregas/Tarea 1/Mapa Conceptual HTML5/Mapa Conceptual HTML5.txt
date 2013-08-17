@@ -1,0 +1,48 @@
+HTML5
+	+ Ventajas
+		+ Contruir aplicaciones web con almacenamiento local
+		+ Dibujo en 2D
+		+ Soporte offline
+		+ Sockets e Hilos
+		+ Entre otras
+		+ Aplicaciones ricas e interactivas.
+		
+	+ Algunas diferencias con HTML 4
+		+ Doctype:
+			- HTML 4: <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+			- HTML 5: <!doctype html>
+		+ Content meta:
+			- HTML 4: <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+			- HTML 5: <meta charset="utf-8">
+		+ Hojas de estilo:
+			- HTML 4: <link type="text/css" rel="stylesheet" href="lounge.css">
+			- HTML 5: <link rel="stylesheet" href="lounge.css">
+			
+	+ Multimedia:
+		+ Soporte nativo para Audio y video
+	
+	+ Nuevas funcionalidades
+		+ Uso de canvas, trasformaciones y JavaScript que pueden reemplazar plugins como Flash
+		+ Acceso a aplicaciones offline
+		+ Web Workes para ejecutar JavaScript más eficientemente y hacer los sitios más responsivos
+		+ Nuevas formas de utilizar CSS, selectores avanzados, animaciones y sombras.
+		+ Funcionalidad de geolocalización que facilita la interacción con los móviles.
+		
+	+ ¿Como funciona HTML5?
+		1. El navegador incluye un documento el cual incluye código html y una hoja de estilos
+		2. Como el navegador carga la pagina, tambien crea un modelo interno del documento que contiene todos los elementos del código html.
+		3. Mientras el navegador está cargando la página, tambien carga el código JavaScrpt el cual se ejecuta típicamente justo despues de que carga la página.
+		4. Los API's dan acceso al audo, video, dubjo en 2D con canvas, almacenamiento local y una gama de otras grandes tecnologias para escribir aplicaciones, para el uso de éstas API's es necesario JavaScript
+		
+	+ Lista de tecnologias que posee HTML:
+		+ CSS3
+		+ Web Workers
+		+ Formularios
+		+ Aplicaciones offline
+		+ Audio y Video
+		+ Nuevas etiquetas
+		+ Almacenamiento local
+		+ Canvas
+		+ Geolocalización
+		
+		
