@@ -1,4 +1,6 @@
-hw1_web
+Repositorio para las tareas de Programación Web
 =======
 
-Repository for Web Programming projects
+Julian Alexander Murillo
+Ingeniería de Sistemas
+Universidad Santiago de Cali
