@@ -16,9 +16,8 @@ function adicionarCancion(){
 	});
 
 	if(texto != "" && puedeAgregar) {
-		var nuevoLi = $("<li>");
-		nuevoLi.addClass("cancion");
-		nuevoLi.text(texto);
+		// Como es posible que haga esto, "usar varias funciones"
+		var nuevoLi = $("<li>").addClass("cancion").text(texto);
 		$("#listaCanciones").append(nuevoLi);	
 	}
 
@@ -27,7 +26,8 @@ function adicionarCancion(){
 }
 
 /* 
- * Se ejecuta cuando el documento este listo
+ * 
+ Se ejecuta cuando el documento este listo
  * (equivalente a window.onload)
  */
 $(document).ready(function(e) {
@@ -40,10 +40,10 @@ $(document).ready(function(e) {
  * Se ejecuta cuando es presionada una
  * tecla.
  */
-$(document).keypress(function(evt){
+$(document).keypress(function(evt) {
 
 	// La tecla 13 es 'enter' en el teclado
 	if (evt.keyCode == 13) {
     	adicionarCancion();
     }	
-})
+});
