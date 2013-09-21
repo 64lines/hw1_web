@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<!-- 
+Julian Alexander Murillo
+Oscar Bustamante    
+-->
+<head>
+    <title>Geolocation demo</title>
+    <meta charset="utf-8" />
+    
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="./css/geolocation.css" />
+
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="./js/leaflet.css" />
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.ie.css" />
+    <![endif]-->
+    <script src="./js/jquery-1.10.2.min.js"></script> 
+    <script src="./js/leaflet.js"></script>
+    <script src="./js/geolocation.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class='page-header'>
+            <h1>Cali Geo-Turist Guide</h1>
+            <h4>Julian Alexander Murillo, Oscar Bustamante</h4>
+        </div>
+        <div class="row">
+            <div id="map" class="map leaflet-container leaflet-fade-anim span12" style="height: 500px; position: relative;" tabindex="0"></div>
+            <div class="span4">
+                <div class="span3">
+                    <div class="row">
+                        <h4>Nueva Marca de Mapa</h4>
+                    </div>
+                    <div class="row">
+                        <input placeholder="Latitud" type="text" id="latitude">
+                        <input placeholder="Longitud" type="text" id="longitude">
+                    </div>
+                    <div class="row">
+                        <textarea id="textMark" placeholder="Texto del marcador"></textarea>
+                    </div>
+                    <div class="row">
+                        <button type="submit" id="addMark" class="btn btn-primary">Agregar marca de mapa</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body> 
+</html>
+<!-- 
+Julian Alexander Murillo
+Oscar Bustamante    
+-->
